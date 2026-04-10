@@ -1,0 +1,47 @@
+Authors: Naomi Chambers
+Date Created: April 10, 2026
+Course: ITT103
+GitHub Public URL to Code: https://github.com/nchambers18-maker/POS-ITT103-SP2026
+
+PROGRAM TITLE:
+Point of Sale (POS) System
+
+PURPOSE OF THE PROGRAM:
+This Python program is a menu-driven Point of Sale (POS) system designed to help a cashier manage sales transactions. It allows the user to view products, add and remove items from a shopping cart, calculate totals, apply discounts and tax, process customer payments, and generate a formatted receipt.
+
+FEATURES / MODIFICATIONS:
+1. Product Management
+- A predefined product catalog with 10 items was created.
+- Each product stores a name, price, and stock quantity.
+- The system checks stock availability before items are added to the cart.
+
+2. Shopping Cart Operations
+- Cashiers can add items to the cart by entering the product name and quantity.
+- Cashiers can remove items from the cart.
+- The cart can be viewed at any time, showing item names, quantities, prices, and totals.
+
+3. Checkout and Payment Processing
+- The program calculates the subtotal of items in the cart.
+- A 10% sales tax is applied.
+- A 5% discount is applied when the subtotal is over $5000.
+- The cashier enters the amount paid by the customer.
+- The system validates payment and calculates the customer’s change.
+
+4. Receipt Generation
+- A formatted receipt is displayed after checkout.
+- The receipt includes:
+  * Store name and header
+  * Itemized list of purchased items
+  * Subtotal
+  * Discount
+  * Sales tax
+  * Total amount due
+  * Amount paid
+  * Change returned
+  * Thank-you message
+
+5. Additional Functionalities
+- Multiple transactions can be processed in one session.
+- Low-stock alerts are displayed when stock falls below 5.
+- Invalid input is handled using input validation.
+
